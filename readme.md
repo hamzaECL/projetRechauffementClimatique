@@ -1,5 +1,5 @@
-<div style = "text-align: center"> Effet du réchauffement climatique sur la population </div> 
-<div style = "text-align: center"> authors : Hamza BEQQI - Mehdi El Yaakabi</div>
+<div style = "text-align: center; font-size: 2em;"> Effet du réchauffement climatique sur la population </div> 
+<div style = "text-align: center;"> authors : Hamza BEQQI - Mehdi El Yaakabi</div>
 <p>
 Le projet consiste à visualiser les effets du changement climatique sur les populations. Certaines estimations chiffrent le nombre de réfugiés climatiques à 500 millions en 2050. 
 </p>
