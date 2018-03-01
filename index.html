@@ -38,9 +38,9 @@
     					.append("div")
     					.attr("class", "hidden tooltip");  
 		  
-		d3.csv("GrippeFrance2014.csv", function(data) 
+		d3.csv("map_data_examples/GrippeFrance2014.csv", function(data) 
 		{	
-			d3.json("regions.json", function(json)
+			d3.json("map_data_examples/regions.json", function(json)
 			{	
 				var group = svg.selectAll("g")
 								.data(json.features)
