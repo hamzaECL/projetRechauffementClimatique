@@ -1,33 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>D3 Page Template</title>
-        <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-		<link rel="stylesheet" href="style.css" type="text/css">
-		<style>
-			div.tooltip 
-			{
-				color: #222;
-				background-color: #fff;
-				padding: .5em;
-				text-shadow: #f5f5f5 0 1px 0;
-				border-radius: 2px;
-				opacity: 0.9;
-				position: absolute;
-			}
-			.titre{
-				text-align: center;
-				font-size: 2em;
-			}
-		</style>
-	</head>
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Global Warming">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Climate Change</title>
 
-	<body>
-	<div class="titre"> Etat de grippe en France en 2014</div> 
-  <script>
+  	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+<div id="fullpage">
+
+	<section class="section" id="intropage">
+		<!--<div class="container" id="intro-image">-->
+		<div class="container" id="intropage-container">
+			<h1>Climate Change</h1>
+			<h2>Arctic warming and Rising sea levels </h2>
+		</div>
+		<!--</div>-->
+	</section>
+
+
+	<section class="section" id="story1">
+		<div class="container" id="story1-container">
+			<h2>What are the consequences of arctic warming on our planet ? </h2>
+			<iframe width="854" height="480" src="https://www.youtube.com/embed/Vj1G9gqhkYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+	</section>
+
+
+
+	<section class="section" id="mappage">
+		<!--<div class="container-fluid">-->
+		<div class="container">
+			<h3 class="choro-title"> Rising sea levels threaten millions of people in Coastal Cities </h3>
+			<div class="col-xs-36 col-sm-9 dist-subtext">Sea levels are rising due to thermal expansion  and melting of land-based ice. Global warming is causing the oceans to absorb a lot of extra heat (up to 90%). This makes the volume of water expand, and sea levels rise. The Greenland and Antarctic ice caps, and many of the world’s glaciers, are all slowly melting. The runoff feeds into rivers and directly into the oceans. This too adds to sea levels.
+			The estimates predict anywhere from 75 cm to 2 m of sea level rise by 2100. But what if ALL ice melted ? It's a 70m sea level rise ! Adjust the slider to get an idea of the cities that would be affected. 
+			</div>
+			<div class="row">
+				<div>
+			    	<input id="slider" type="range" value="0" min="0" max="70" step="1" />
+			    	<span id="elevation"> </span>
+			  	</div>
+
 	
-  </script>
-</body>
+			</div>
+		</div>
+	</section>
 
+
+
+
+	<section class="section">
+		<div class="container" id="distributionpage">
+			<h3>How does sea level rise affect individual countries ?</h3>
+			<div class="col-xs-36 col-sm-9" id="distributionpage">
+			Some countries and cities are particuliarly at risk of flooding due to higher sea levels. Already, many cities around the world are battling chronic flooding, meaning the kind of flooding that’s so unmanageable it prompts people to move away. The number of cities facing this problem is expected to rise in the near future. <br/>Clearly, some regions have it harder than others. If a city like Shanghai is flooded, it would mean a disaster for the 17,5 people living there who would have to relocate. 
+			In the same way, some countries are much more affected by the rising sea levels. Island countries like Maldives (highest point of 2,4 meters) can be entirely submerged in the future.
+			</div>
+		</div>
+
+	</section>
+
+
+	<section class="section">
+		<div>
+		</div>
+		<div class="container" id="zoompage">
+			<h3>How does sea level rise affect individual countries ?</h3>
+		</div>
+	</section>
+
+	<section class="section" id="endpage">
+	<!--<div class="container" id="intro-image">-->
+	<!--</div>-->
+	</section>
+
+</div>
+
+	<!-- Load JS libraries -->
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+	<script src="js/lib/queue.min.js"></script>
+	<script src="js/lib/topojson.min.js"></script>
+	<script src="js/lib/tooltipsy.source.js "></script>
+	<script src="js/lib/colorbrewer.js"></script>
+	<script src="js/lib/d3.js"></script>
+	<script src="js/lib/d3-tip.js"></script>
+	<script src="js/lib/jquery.fullPage.js "></script>
+	<script src="js/lib/lodash.min.js"></script>
+	<script src="js/lib/scrolloverflow.js"></script>
+
+	<!-- Choropleth and second visualization -->	
+	<script src="js/map.js"></script>
+	<script src="js/displaced.js"></script>
+	<script src="js/displaced_per_country.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
 </html>

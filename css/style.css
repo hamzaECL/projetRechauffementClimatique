@@ -1,0 +1,660 @@
+
+body{
+  background-color:  lightblue;
+}
+div.tooltip 
+  {
+    color: #222;
+    background-color: #fff;
+    padding: .5em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 2px;
+    position: absolute;
+  }
+.country:hover {
+    fill: #161616;
+    opacity: 0.9;
+  }
+path {
+    border: 2px solid white;
+    fill: #BC8F8F;
+  }
+.hidden {
+    display: none;
+  }
+
+
+
+.dropdown_list{
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+option{
+  font-size: 1.5em;
+}
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}
+
+
+
+
+
+body {
+    font-family: Avenir;
+    font-size: 11px;
+    background: white;
+}
+.bigger {
+    font-size:130%;
+}
+#intropage {
+    background-image: url(../img/6a0120a7fc3be9970b01bb07ddb064970d.png);
+    background-size: cover;
+    padding: 0;
+}
+
+#endpage {
+    background-image: url(../img/4034921059_0425a87d7f_b.jpg);
+    background-size: cover;
+    padding: 0;
+}
+
+#intropage-container h1 {
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding-top: 25%;
+}
+#intropage-container h2 {
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding-bottom: 20%;
+}
+#story1 h2 {
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 20%;
+    line-height: 180%;
+}
+#story2 h2 {
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 20%;
+    line-height: 180%;
+}
+#story2 h3 {
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-bottom: 2%;
+    line-height: 180%;
+}
+
+#conclusionimage{
+    height:400px;
+    margin-left: 30px;
+    margin-top: 50px;
+    opacity: 0.7;
+}
+
+.conclusion-text {
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 130%;
+}
+
+#mappage h1 {
+    padding: 5px;
+    padding-left: 0px;
+}
+
+img {
+    height:650px;
+    margin-left: 30px;
+}
+
+h2 {
+    letter-spacing: 3px;
+}
+
+
+
+
+/*********************/
+/*     FULLPAGE      */
+/*********************/
+
+#fp-nav ul li a span {
+    background: black;
+}
+
+img.icon-ref {
+    width: auto;
+    height: 120px;
+    position: absolute;
+    right: 5px;
+    padding:5px;
+    align-content: center;
+    vertical-align: middle;
+}
+section {
+    margin-bottom: 20px;
+}
+
+
+
+/*********************/
+/*     RANKING       */
+/*********************/
+
+.rank-title {
+    /*font-family: 'Poiret One', cursive;*/
+    fill: #053b68;
+    font-size: 18px;
+    /*letter-spacing: 0.5px;*/
+    /*font-weight: bold;*/
+    /*text-anchor: middle;*/
+}
+
+.rank-text{
+    fill: black;
+    font-size: 13.5px;
+}
+
+#ranking-svg {
+    margin-top: 10px;
+}
+
+.rank-note {
+    fill: #a5a5a5;
+    font-size: 10px;
+}
+
+.background-box {
+    fill: rgba(247, 247, 247, 0.8);
+    stroke: rgba(247, 247, 247, 0.8);
+    /*fill: #f7f7f7;*/
+    /*stroke: #f7f7f7;*/
+    stroke-width: 1px;
+    rx: 17px;
+    ry: 17px;
+}
+
+
+
+/*********************/
+/*    DIST VIZ       */
+/*********************/
+h3 {
+    letter-spacing: 4px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.dist-subtext {
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.dist-yAxis line {
+    stroke: transparent;
+}
+
+.dist-yAxis text {
+    font-size: 12px;
+    font-family: Avenir;
+    letter-spacing: 1px;
+    color: gray;
+}
+.dist-xAxis line {
+    stroke: gray;
+}
+
+.dist-xAxis text {
+    font-size: 12px;
+    font-family: Avenir;
+    letter-spacing: 1px;
+    color: gray;
+}
+.dist-label {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: gray;
+}
+.dist-legend, .dist-legend2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: gray;
+}
+div.dist-tooltip {
+    width: 130px;
+    height: 45px;
+    padding: 5px;
+    position: absolute;
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    font-family: Avenir;
+    background-color: #34495E;
+    border: 1px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.btn-group>a {
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--colorMedium);
+    border-color: #ddd;
+    border-width: 1px;
+    background-color: #f0f0f0;
+    padding: 3px 10px;
+    margin: 0 4px 4px 4px;
+    border-radius: 12px !important;
+}
+
+.btn-group>a:hover {
+    color: var(--colorDark);
+}
+.btn-group>a.active, .btn-group>a:active {
+    background-color: #cdcdcd;
+    box-shadow: none;
+    color: var(--colorDark);
+    outline: none;
+}
+div.btn-group {
+    display: inline-block;
+    margin-left: 150px;
+}
+*:focus {
+    outline: none !important;
+    outline: 0  !important;
+}
+.selectSection {
+    margin: 20px 0;
+}
+.filterType {
+    color: #999;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.rectAfrica, .reg-Africa {
+    fill: #66c2a5;
+    opacity: 1;
+}
+.rectAmericas, .reg-Americas {
+    fill: #F9BF3B;
+    opacity: 1;
+}
+.rectAsia, .reg-Asia {
+    fill: #8da0cb;
+    opacity: 1;
+}
+.rectEurope, .reg-Europe {
+    fill: #fc8d62;
+    opacity: 1;
+}
+.monoLines {
+    fill: #2b8cbe;
+    opacity: 1;
+}
+.dist-legend2-label:hover,
+.dist-legend2:hover{
+    cursor: pointer;
+}
+.dist-instruct {
+    font-size: 10px;
+    fill: #BDC3C7;
+    font-style: italic;
+}
+
+
+
+/***********************/
+/* ATTAINMENT PROFILE */
+/***********************/
+
+/* default figure (no filter) */
+
+.attain-subtext {
+    color: #777777;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.line-US {
+    stroke: #a5a5a5;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+#dropout-text {
+    letter-spacing: 2px;
+    line-height: 120%;
+    font-size: 16px;
+}
+
+#attain-btn {
+    align: middle;
+}
+.btn-group2>span {
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--colorMedium);
+    border-color: #afc6ab;
+    border-width: 1px;
+    background-color: #c4d8c0;
+    padding: 3px 10px;
+    margin: 0 4px 4px 4px;
+    border-radius: 12px !important;
+}
+
+.btn-group2>span:hover {
+    color: var(--colorDark);
+}
+.btn-group2>span.active, .btn-group2>span:active{
+    background-color: #8aa385;
+    box-shadow: none;
+    color: var(--colorDark);
+    outline: none;
+}
+li {
+    font-size: 15px;
+}
+
+img.icon {
+    width: auto;
+    height: 100px;
+}
+
+.points {
+    fill: #663399;
+    stroke: #663399;
+    stroke-width: 0.1 px;
+}
+
+.points-US{
+    fill: #a5a5a5;
+    stroke: #a5a5a5;
+    stroke-width: 0.1 px;
+}
+
+.y-label {
+    font-size: 11.5px;
+    fill: grey;
+    transform: rotate(-90deg);
+    text-anchor: end;
+    opacity: 0.5;
+}
+
+.x-label {
+    font-size: 11.5px;
+    fill: grey;
+    text-anchor: end;
+    opacity: 0.5;
+}
+
+
+
+.legend-text {
+    font-size: 12px;
+    fill: grey;
+}
+
+/* gender filter line */
+
+.line-male {
+    stroke: #1d65af;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-male {
+    fill: #1d65af;
+    stroke: #1d65af;
+    stroke-width: 0.1 px;
+}
+
+.line-female {
+    stroke: #a52731;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-female {
+    fill: #a52731;
+    stroke: #a52731;
+    stroke-width: 0.1 px;
+}
+
+
+/* rural/urban filter line */
+
+.line-urban {
+    stroke: #656565;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-urban {
+    fill: #656565;
+    stroke: #656565;
+    stroke-width: 0.1 px;
+}
+
+.line-rural {
+    stroke: #147f27;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-rural {
+    fill: #147f27;
+    stroke: #147f27;
+    stroke-width: 0.1 px;
+}
+
+/* income filter line */
+
+.line-q1 {
+    stroke: #08589e;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-q1 {
+    fill: #08589e;
+    stroke: #08589e;
+    stroke-width: 0.1 px;
+}
+
+.line-q2 {
+    stroke: #2b8cbe;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-q2 {
+    fill: #2b8cbe;
+    stroke: #2b8cbe;
+    stroke-width: 0.1 px;
+}
+
+.line-q3 {
+    stroke: #4eb3d3;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-q3 {
+    fill: #4eb3d3;
+    stroke: #4eb3d3;
+    stroke-width: 0.1 px;
+}
+
+.line-q4 {
+    stroke: #7bccc4;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-q4 {
+    fill: #7bccc4;
+    stroke: #7bccc4;
+    stroke-width: 0.1 px;
+}
+
+.line-q5 {
+    stroke: #a8ddb5;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.points-q5 {
+    fill: #a8ddb5;
+    stroke: #a8ddb5;
+    stroke-width: 0.1 px;
+}
+
+.note-hover {
+    fill: gray;
+    opacity: 0.7;
+    font-size: 10px;
+}
+.ptext {
+    font-size:13px;
+    padding-right:15px;
+}
+
+
+/***********************/
+/*      MATRIX VIZ     */
+/***********************/
+
+
+rect.bordered {
+    stroke: white;
+    stroke-width:2px;
+}
+
+h3.matrix-title {
+    letter-spacing: 4px;
+}
+text.mono {
+    font-size: 8pt;
+    font-family: Avenir;
+    fill: #aaa;
+}
+
+text.mono {
+    font-size: 8pt;
+    font-family: Avenir;
+}
+
+.cell-text{
+    font-family: Avenir;
+    font-size: 9px;
+}
+
+#selectedY{
+    font-family: Avenir;
+    margin-top: 100px;
+}
+
+#selected-var-label {
+    font-family: Avenir;
+    margin-left: 20px;
+}
+.varLabel:hover {
+    font-weight: bold;
+    cursor: pointer;
+    fill: #4C4545;
+}
+.countryLabel:hover {
+    font-weight: bold;
+    cursor: pointer;
+    fill: #4C4545;
+}
+.selectSection {
+    margin: 20px 0;
+}
+.matrix-subtext,
+.matrix-instruct {
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.matrix-instruct {
+    font-size: 12px;
+    font-style: italic;
+    color: #A9A9A9;
+}
+.matrix-explain{
+    color: #777777;
+    font-size: 13px;
+    margin-top: 12px;
+    padding-left: 30px;
+    letter-spacing: 1px;
+}
+text.text-highlight {
+    fill: #4C4545;
+    font-weight: bold;
+}
+
+.tooltip-matrix {
+    font-size: 9pt;
+    fill: #4C4545;
+}
+
+
+/*********************/
+/* CONCLUSION PAGE */
+/*********************/
+
+
+#conclusion h2 {
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#conclusion h2 {
+    padding-bottom: 5%;
+}
+
+/*******************/
+/*     END PAGE   */
+/*******************/
+
+#endpage p li {
+    font-size: 10px;
+}
