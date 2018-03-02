@@ -20,5 +20,6 @@ Nous espérons donc par cette visualisation, montrer l’étendu de ce phénomène par
 <p>
 Le MVP est de présenter une carte du monde avec les zones submergées pour un niveau de montée de mer fixé par l’utilisateur. Nous disposons déjà de données d’altitude sous format GeoJson qui nous permettrons de colorier les zones se situation en dessous du niveau de la mer hypothétique. L’un des défis du projet serait d’ignorer les zones en dessous du niveau de la mer non connectées à la mer et qui ne peuvent donc pas être submergées.
 </p>
-
-lien ver le cite : [ici(https://github.com/hamzaECL/projetRechauffementClimatique)]
+<p>
+lien ver le cite : <a href="https://hamzaecl.github.io/projetRechauffementClimatique/">ici</a>
+</p>
