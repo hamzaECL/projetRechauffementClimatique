@@ -4,7 +4,7 @@
 
 Authors : <a href="https://github.com/hamzaECL">Hamza Beqqi</a> | Mehdi El-Yaakabi
 
-<a href="https://github.com/hamzaECL">Website</a>
+<a href="https://hamzaecl.github.io/projetRechauffementClimatique">Website</a>
 
 ### Introduction
 
