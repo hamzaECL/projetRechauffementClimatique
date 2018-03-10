@@ -21,8 +21,7 @@ The data we used to build our visualisations are contained in the following file
 <ul>
 	<li> <strong>"world_countries. json"</strong>: containing the coordinates of each country in the world, to be able to draw the map of the world.</li>
 	<li><strong>"world_population. tsv"</strong>: containing the name and population of each country in the world, in order to calculate the displaced rate.</li>
-	<li><strong>"world_cities. csv"</strong>containing the cities, the country to which they belong, longitude, latitude and altitude. </li>
-	<li><strong>The Comparative measure</strong>: utilisé comme marqueur cible pour être comparé avec la barre principale</li>
+	<li><strong>"world_cities. csv"</strong>: containing the cities, the country to which they belong, longitude, latitude and altitude. </li>
 	<li><strong>"cities_populations.csv"</strong>: which contains the cities and their population.</li>
 </ul>
 
