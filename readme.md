@@ -6,7 +6,7 @@ Authors : <a href="https://github.com/hamzaECL">Hamza Beqqi</a> | Mehdi El-Yaaka
 
 <a href="https://hamzaecl.github.io/projetRechauffementClimatique">Website</a>
 
-### Introduction
+### Context
 
 
 50% of the world's population lives on coasts in contact with the sea. This makes half of the world population open to the dangers of climate change, especially sea-level rise. the latter is obviously not the only cause of displacement of populations : Desertification, climate change, drought and natural disasters are examples of phenomena that can generate climate refugees. And although the other effects mentioned above are more likely to affect populations in the short to medium term, sea-level rise is potentially one of the most devastating phenomena in the scenarios in which it would occur. 
@@ -14,7 +14,7 @@ Authors : <a href="https://github.com/hamzaECL">Hamza Beqqi</a> | Mehdi El-Yaaka
 This project consists of a number of visualisations showing the effects of Sea-level rise on populations. With this visualization, we hope to show the extent of this phenomenon by visualizing the submerged zones in different scenarios that range from the most optimistic to the most catastrophic (+70 m of climb), the most affected countries, and the displaced rate of population in each country. 
 
 
-### DATA
+### Data
 
 The data we used to build our visualisations are contained in the following files: 
 
@@ -25,14 +25,14 @@ The data we used to build our visualisations are contained in the following file
 	<li><strong>"cities_populations.csv"</strong>: which contains the cities and their population.</li>
 </ul>
 
-### Visualisations : 
+### Visualisations 
 
 
 #### Rising sea levels threaten millions of people in Coastal Cities
 
 Global warming is causing the oceans to absorb a lot of extra heat (up to 90%). The estimates predict anywhere from 75 cm to 2 m of sea level rise by 2100. But what if ALL ice melted ? It's a 70m sea level rise. 
 
-By comparing the elevation of the countries with the value of altitude of each city and then conclude on the state of the city : submerged or not.
+By comparing the elevation of the countries with the value of altitude of each city and we can know wether or not the city will be submerged.
 
 In our first visualisation we built a zoomable map indicating the cities that will be affected by a rise of sea-level. It contains a slider that you can adjust to the wanted sea-level, then the submergedged cities will be colored in light-blue. 
 
